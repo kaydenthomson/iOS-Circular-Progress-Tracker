@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBBA88291EFD6377009EED7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA88281EFD6377009EED7A /* AppDelegate.swift */; };
+		EBBA882B1EFD6377009EED7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA882A1EFD6377009EED7A /* ViewController.swift */; };
+		EBBA882E1EFD6377009EED7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBA882C1EFD6377009EED7A /* Main.storyboard */; };
+		EBBA88301EFD6377009EED7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBBA882F1EFD6377009EED7A /* Assets.xcassets */; };
+		EBBA88331EFD6377009EED7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBA88311EFD6377009EED7A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EBBA88251EFD6377009EED7A /* Circular Progress Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Circular Progress Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBA88281EFD6377009EED7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBBA882A1EFD6377009EED7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBBA882D1EFD6377009EED7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBBA882F1EFD6377009EED7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBBA88321EFD6377009EED7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBBA88341EFD6377009EED7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBBA88221EFD6377009EED7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBBA881C1EFD6377009EED7A = {
+			isa = PBXGroup;
+			children = (
+				EBBA88271EFD6377009EED7A /* Circular Progress Tracker */,
+				EBBA88261EFD6377009EED7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBBA88261EFD6377009EED7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBBA88251EFD6377009EED7A /* Circular Progress Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBBA88271EFD6377009EED7A /* Circular Progress Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				EBBA882A1EFD6377009EED7A /* ViewController.swift */,
+				EBBA882C1EFD6377009EED7A /* Main.storyboard */,
+				EBBA883A1EFD63A2009EED7A /* Supporting Files */,
+			);
+			path = "Circular Progress Tracker";
+			sourceTree = "<group>";
+		};
+		EBBA883A1EFD63A2009EED7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBBA88311EFD6377009EED7A /* LaunchScreen.storyboard */,
+				EBBA88281EFD6377009EED7A /* AppDelegate.swift */,
+				EBBA882F1EFD6377009EED7A /* Assets.xcassets */,
+				EBBA88341EFD6377009EED7A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBBA88241EFD6377009EED7A /* Circular Progress Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBBA88371EFD6377009EED7A /* Build configuration list for PBXNativeTarget "Circular Progress Tracker" */;
+			buildPhases = (
+				EBBA88211EFD6377009EED7A /* Sources */,
+				EBBA88221EFD6377009EED7A /* Frameworks */,
+				EBBA88231EFD6377009EED7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Circular Progress Tracker";
+			productName = "Circular Progress Tracker";
+			productReference = EBBA88251EFD6377009EED7A /* Circular Progress Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBBA881D1EFD6377009EED7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kayden Thomson";
+				TargetAttributes = {
+					EBBA88241EFD6377009EED7A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 592V4HSMJ5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EBBA88201EFD6377009EED7A /* Build configuration list for PBXProject "Circular Progress Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBBA881C1EFD6377009EED7A;
+			productRefGroup = EBBA88261EFD6377009EED7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBBA88241EFD6377009EED7A /* Circular Progress Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBBA88231EFD6377009EED7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBA88331EFD6377009EED7A /* LaunchScreen.storyboard in Resources */,
+				EBBA88301EFD6377009EED7A /* Assets.xcassets in Resources */,
+				EBBA882E1EFD6377009EED7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBBA88211EFD6377009EED7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBA882B1EFD6377009EED7A /* ViewController.swift in Sources */,
+				EBBA88291EFD6377009EED7A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBBA882C1EFD6377009EED7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBBA882D1EFD6377009EED7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBBA88311EFD6377009EED7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBBA88321EFD6377009EED7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBBA88351EFD6377009EED7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBBA88361EFD6377009EED7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBBA88381EFD6377009EED7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 592V4HSMJ5;
+				INFOPLIST_FILE = "Circular Progress Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Circular-Progress-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EBBA88391EFD6377009EED7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 592V4HSMJ5;
+				INFOPLIST_FILE = "Circular Progress Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Circular-Progress-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBBA88201EFD6377009EED7A /* Build configuration list for PBXProject "Circular Progress Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBA88351EFD6377009EED7A /* Debug */,
+				EBBA88361EFD6377009EED7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBBA88371EFD6377009EED7A /* Build configuration list for PBXNativeTarget "Circular Progress Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBA88381EFD6377009EED7A /* Debug */,
+				EBBA88391EFD6377009EED7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBBA881D1EFD6377009EED7A /* Project object */;
+}
