@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		EBBA88291EFD6377009EED7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA88281EFD6377009EED7A /* AppDelegate.swift */; };
-		EBBA882B1EFD6377009EED7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA882A1EFD6377009EED7A /* ViewController.swift */; };
+		EBBA882B1EFD6377009EED7A /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA882A1EFD6377009EED7A /* ProgressViewController.swift */; };
 		EBBA882E1EFD6377009EED7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBA882C1EFD6377009EED7A /* Main.storyboard */; };
 		EBBA88301EFD6377009EED7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBBA882F1EFD6377009EED7A /* Assets.xcassets */; };
 		EBBA88331EFD6377009EED7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBA88311EFD6377009EED7A /* LaunchScreen.storyboard */; };
 		EBBA883C1EFD6479009EED7A /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA883B1EFD6479009EED7A /* ProgressCircleView.swift */; };
+		EBBA88681F055009009EED7A /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA88671F055009009EED7A /* SettingsTableViewController.swift */; };
+		EBBA886C1F0593E9009EED7A /* SettingElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA886B1F0593E9009EED7A /* SettingElements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EBBA88251EFD6377009EED7A /* Circular Progress Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Circular Progress Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBBA88281EFD6377009EED7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EBBA882A1EFD6377009EED7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBBA882A1EFD6377009EED7A /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
 		EBBA882D1EFD6377009EED7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBBA882F1EFD6377009EED7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBBA88321EFD6377009EED7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBBA88341EFD6377009EED7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBBA883B1EFD6479009EED7A /* ProgressCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
+		EBBA88671F055009009EED7A /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		EBBA886B1F0593E9009EED7A /* SettingElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingElements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		EBBA88271EFD6377009EED7A /* Circular Progress Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				EBBA882A1EFD6377009EED7A /* ViewController.swift */,
 				EBBA882C1EFD6377009EED7A /* Main.storyboard */,
-				EBBA883A1EFD63A2009EED7A /* Supporting Files */,
 				EBBA883B1EFD6479009EED7A /* ProgressCircleView.swift */,
+				EBBA882A1EFD6377009EED7A /* ProgressViewController.swift */,
+				EBBA88671F055009009EED7A /* SettingsTableViewController.swift */,
+				EBBA886B1F0593E9009EED7A /* SettingElements.swift */,
+				EBBA883A1EFD63A2009EED7A /* Supporting Files */,
 			);
 			path = "Circular Progress Tracker";
 			sourceTree = "<group>";
@@ -148,7 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBBA882B1EFD6377009EED7A /* ViewController.swift in Sources */,
+				EBBA88681F055009009EED7A /* SettingsTableViewController.swift in Sources */,
+				EBBA882B1EFD6377009EED7A /* ProgressViewController.swift in Sources */,
+				EBBA886C1F0593E9009EED7A /* SettingElements.swift in Sources */,
 				EBBA883C1EFD6479009EED7A /* ProgressCircleView.swift in Sources */,
 				EBBA88291EFD6377009EED7A /* AppDelegate.swift in Sources */,
 			);
@@ -316,6 +324,7 @@
 				EBBA88391EFD6377009EED7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

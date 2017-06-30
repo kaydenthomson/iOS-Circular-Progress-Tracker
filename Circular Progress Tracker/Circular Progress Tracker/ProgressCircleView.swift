@@ -49,7 +49,7 @@ class ProgressCircleView: UIView {
     }
 
     private func pathForCircle(startAngle start: CGFloat, endAngle end: CGFloat) -> UIBezierPath {
-        let path = UIBezierPath(arcCenter: circleCenter, radius: circleRadius, startAngle: start, endAngle: end, clockwise: true)
+        let path = UIBezierPath(arcCenter: circleCenter, radius: circleRadius, startAngle: start, endAngle: end, clockwise: false)
         path.lineWidth = lineWidth
         return path
     }
@@ -58,7 +58,7 @@ class ProgressCircleView: UIView {
         shapeLayer.strokeColor = animatedCircleColor.cgColor
         shapeLayer.fillColor = UIColor.clear.cgColor
         shapeLayer.lineWidth = lineWidth
-        shapeLayer.lineCap = kCALineCapRound
+        shapeLayer.lineCap = kCALineCapButt
         self.layer.addSublayer(shapeLayer)
         shapeLayer.path = pathForCircle(startAngle: animationStartAngle, endAngle: animationEndAngle).cgPath
         

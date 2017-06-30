@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Mny-NN-XNd">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Progress View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Circular_Progress_Tracker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ProgressViewController" customModule="Circular_Progress_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -23,19 +23,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7KZ-uV-6aq" customClass="ProgressCircleView" customModule="Circular_Progress_Tracker" customModuleProvider="target">
-                                <rect key="frame" x="16" y="20" width="343" height="627"/>
+                                <rect key="frame" x="16" y="64" width="343" height="539"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="0Zd-aB-SEq">
-                                        <rect key="frame" x="80.5" y="271.5" width="182.5" height="84"/>
+                                        <rect key="frame" x="80.5" y="227.5" width="182.5" height="84"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="70"/>
                                         <color key="textColor" red="0.12941176469999999" green="0.80784313730000001" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2HZ-z5-W7e">
+                                        <rect key="frame" x="303" y="499" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="7KT-hb-zw8"/>
+                                            <constraint firstAttribute="width" constant="40" id="LqE-t4-2dF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" image="fa-cog"/>
+                                        <connections>
+                                            <segue destination="8Jd-Jr-Yw6" kind="show" id="GHI-iR-3Jl"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="2HZ-z5-W7e" secondAttribute="trailing" id="Agk-PY-bwo"/>
                                     <constraint firstItem="0Zd-aB-SEq" firstAttribute="centerX" secondItem="7KZ-uV-6aq" secondAttribute="centerX" id="Jou-qH-uak"/>
                                     <constraint firstItem="0Zd-aB-SEq" firstAttribute="centerY" secondItem="7KZ-uV-6aq" secondAttribute="centerY" id="bN9-y2-fz3"/>
+                                    <constraint firstAttribute="bottom" secondItem="2HZ-z5-W7e" secondAttribute="bottom" id="w3v-nw-AmU"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="animatedCircleColor">
@@ -64,6 +79,7 @@
                             <constraint firstItem="7KZ-uV-6aq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qOz-Zs-7EE"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="T6H-E4-cEO"/>
                     <connections>
                         <outlet property="progressCircleView" destination="7KZ-uV-6aq" id="he5-ei-2hN"/>
                         <outlet property="progressLabel" destination="0Zd-aB-SEq" id="Kw4-TM-wXG"/>
@@ -71,7 +87,56 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
+            <point key="canvasLocation" x="3167.1999999999998" y="468.21589205397305"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="eS0-qU-udk">
+            <objects>
+                <tableViewController title="Settings" id="8Jd-Jr-Yw6" customClass="SettingsTableViewController" customModule="Circular_Progress_Tracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Rym-XH-xjF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="NeU-gu-bWN">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NeU-gu-bWN" id="0dZ-cg-gZ6">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="8Jd-Jr-Yw6" id="mRN-Vr-GyE"/>
+                            <outlet property="delegate" destination="8Jd-Jr-Yw6" id="Wkh-UV-99b"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="blZ-ax-nO1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4180" y="468"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="6Pf-w5-dM5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Mny-NN-XNd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Frg-ma-Uvb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FIe-zk-48d"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jOk-ph-tur" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2228" y="468.21589205397305"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="fa-cog" width="128" height="128"/>
+    </resources>
 </document>
