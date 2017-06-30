@@ -13,7 +13,7 @@ class ProgressViewController: UIViewController {
     private let minutesInHour: Int = 60
     private let minutesInDay: Int = 1440
     var countingDown: Bool = true
-    var colorTheme: ColorTheme = .Green
+    var colorTheme: ColorTheme = .Blue
     
     var completion: Float {
         if (countingDown) {
@@ -26,6 +26,7 @@ class ProgressViewController: UIViewController {
         didSet {
             let text: String = String(format: "%.0f", completion * 100)
             let decimalText: String = String(format: "%.1f", completion * 100)
+            progressLabel.textColor = colorTheme.Primary
             
             if (text + ".0" == decimalText) {
                 progressLabel.text = text + "%"

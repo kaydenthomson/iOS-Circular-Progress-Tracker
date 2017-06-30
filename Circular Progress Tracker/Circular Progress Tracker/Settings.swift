@@ -31,22 +31,22 @@ public enum ColorTheme {
     var Secondary: UIColor {
         switch self {
         case .Green, .Blue:
-            return ColorPalette.Secondary.DarkGreenBlue
+            return ColorPalette.Secondary.Dark
         case .Pink:
-            return ColorPalette.Secondary.DarkGreenBlue
+            return ColorPalette.Secondary.Dark
         case .Red:
-            return ColorPalette.Secondary.DarkGreenBlue
+            return ColorPalette.Secondary.Dark
         }
     }
     
     var Background: UIColor {
         switch self {
         case .Green, .Blue:
-            return ColorPalette.Background.DeepDark
+            return ColorPalette.Background.Dark
         case .Pink:
-            return ColorPalette.Background.DeepDark
+            return ColorPalette.Background.Dark
         case .Red:
-            return ColorPalette.Background.DeepDark
+            return ColorPalette.Background.Dark
         }
     }
 }
@@ -74,10 +74,10 @@ public enum ColorPalette {
     }
     
     fileprivate enum Secondary {
-        static let DarkGreenBlue =   #colorLiteral(red: 0.09019607843, green: 0.1490196078, blue: 0.2039215686, alpha: 1) // "#172634"
+        static let Dark =            #colorLiteral(red: 0.09019607843, green: 0.1490196078, blue: 0.2039215686, alpha: 1) // "#172634"
     }
     
     fileprivate enum Background {
-        static let DeepDark =        #colorLiteral(red: 0.007843137255, green: 0.02745098039, blue: 0.09803921569, alpha: 1) // "#121C28"
+        static let Dark =            #colorLiteral(red: 0.007843137255, green: 0.02745098039, blue: 0.09803921569, alpha: 1) // "#121C28"
     }
 }
