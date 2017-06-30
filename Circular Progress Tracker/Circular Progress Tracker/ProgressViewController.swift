@@ -13,6 +13,7 @@ class ProgressViewController: UIViewController {
     private let minutesInHour: Int = 60
     private let minutesInDay: Int = 1440
     var countingDown: Bool = true
+    var colorTheme: ColorTheme = .Green
     
     var completion: Float {
         if (countingDown) {
@@ -34,15 +35,17 @@ class ProgressViewController: UIViewController {
         }
     }
     
+    @IBOutlet var progressCircle: ProgressCircleView! {
+        didSet {
+            progressCircle.completion = CGFloat(self.completion)
+            progressCircle.animatedCircleColor = colorTheme.Primary
+            progressCircle.containerCircleColor = colorTheme.Secondary
+            progressCircle.backgroundColor = colorTheme.Background
+        }
+    }
     
     override var preferredStatusBarStyle: UIStatusBarStyle{
         return .lightContent
-    }
-    
-    @IBOutlet weak var progressCircleView: ProgressCircleView! {
-        didSet {
-            progressCircleView.completion = CGFloat(self.completion)
-        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
