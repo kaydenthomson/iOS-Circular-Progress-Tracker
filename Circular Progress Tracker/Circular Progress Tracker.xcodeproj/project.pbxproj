@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB46D52A1F2BC084002A6EA7 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB46D5291F2BC084002A6EA7 /* ExpandableHeaderView.swift */; };
+		EB46D52E1F2BD039002A6EA7 /* ExpandableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB46D52D1F2BD039002A6EA7 /* ExpandableHeaderView.xib */; };
 		EBBA88291EFD6377009EED7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA88281EFD6377009EED7A /* AppDelegate.swift */; };
 		EBBA882B1EFD6377009EED7A /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA882A1EFD6377009EED7A /* ProgressViewController.swift */; };
 		EBBA882E1EFD6377009EED7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBA882C1EFD6377009EED7A /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB46D5291F2BC084002A6EA7 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
+		EB46D52D1F2BD039002A6EA7 /* ExpandableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpandableHeaderView.xib; sourceTree = "<group>"; };
 		EBBA88251EFD6377009EED7A /* Circular Progress Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Circular Progress Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBBA88281EFD6377009EED7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBBA882A1EFD6377009EED7A /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB46D5281F2BC057002A6EA7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EBBA88671F055009009EED7A /* SettingsTableViewController.swift */,
+				EBBA886B1F0593E9009EED7A /* Settings.swift */,
+				EB46D5291F2BC084002A6EA7 /* ExpandableHeaderView.swift */,
+				EB46D52D1F2BD039002A6EA7 /* ExpandableHeaderView.xib */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
 		EBBA881C1EFD6377009EED7A = {
 			isa = PBXGroup;
 			children = (
@@ -63,8 +78,7 @@
 				EBBA882C1EFD6377009EED7A /* Main.storyboard */,
 				EBBA883B1EFD6479009EED7A /* ProgressCircleView.swift */,
 				EBBA882A1EFD6377009EED7A /* ProgressViewController.swift */,
-				EBBA88671F055009009EED7A /* SettingsTableViewController.swift */,
-				EBBA886B1F0593E9009EED7A /* Settings.swift */,
+				EB46D5281F2BC057002A6EA7 /* Settings */,
 				EBBA883A1EFD63A2009EED7A /* Supporting Files */,
 			);
 			path = "Circular Progress Tracker";
@@ -142,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBBA88331EFD6377009EED7A /* LaunchScreen.storyboard in Resources */,
+				EB46D52E1F2BD039002A6EA7 /* ExpandableHeaderView.xib in Resources */,
 				EBBA88301EFD6377009EED7A /* Assets.xcassets in Resources */,
 				EBBA882E1EFD6377009EED7A /* Main.storyboard in Resources */,
 			);
@@ -155,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBBA88681F055009009EED7A /* SettingsTableViewController.swift in Sources */,
+				EB46D52A1F2BC084002A6EA7 /* ExpandableHeaderView.swift in Sources */,
 				EBBA882B1EFD6377009EED7A /* ProgressViewController.swift in Sources */,
 				EBBA886C1F0593E9009EED7A /* Settings.swift in Sources */,
 				EBBA883C1EFD6479009EED7A /* ProgressCircleView.swift in Sources */,
