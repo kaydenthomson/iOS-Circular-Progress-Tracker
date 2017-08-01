@@ -19,6 +19,7 @@ class ExpandableHeaderView: UITableViewHeaderFooterView {
     
     var delegate: ExpandableHeaderViewDelegate?
     var section: Int!
+    var colorTheme = ColorTheme.Blue
     
     var title: String? {
         didSet {
@@ -46,5 +47,7 @@ class ExpandableHeaderView: UITableViewHeaderFooterView {
         super.awakeFromNib()
         self.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(selectHeaderAction)))
     }
+    
+    
     
 }

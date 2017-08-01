@@ -78,6 +78,6 @@ public enum ColorPalette {
     }
     
     fileprivate enum Background {
-        static let Dark =            #colorLiteral(red: 0.007843137255, green: 0.02745098039, blue: 0.09803921569, alpha: 1) // "#121C28"
+        static let Dark =            #colorLiteral(red: 0.007843137255, green: 0.02745098039, blue: 0.09803921569, alpha: 1) // "#020719"
     }
 }
