@@ -89,12 +89,8 @@ class SettingsTableViewController: UITableViewController, ExpandableHeaderViewDe
         switch settingCell {
         case .timePicker:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "timePickerCell") else { fatalError("UITableViewCell was expected") }
-//            let datepicker = UIDatePicker()
-//            datepicker.datePickerMode = .time
-//            datepicker.setValue(UIColor.white, forKey: "textColor")
-//            cell.addSubview(datepicker)
+            
             cell.backgroundColor = colorTheme.Background
-            cell.textLabel?.textColor = UIColor.white
             
             return cell
         case .color(let title, let selected):

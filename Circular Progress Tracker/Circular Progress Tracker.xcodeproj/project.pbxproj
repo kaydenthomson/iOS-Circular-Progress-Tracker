@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		EB46D52A1F2BC084002A6EA7 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB46D5291F2BC084002A6EA7 /* ExpandableHeaderView.swift */; };
 		EB46D52E1F2BD039002A6EA7 /* ExpandableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB46D52D1F2BD039002A6EA7 /* ExpandableHeaderView.xib */; };
-		EB46D5881F312C0F002A6EA7 /* WhiteTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB46D5871F312C0F002A6EA7 /* WhiteTimePicker.swift */; };
+		EB46D58A1F31346E002A6EA7 /* WhiteTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB46D5891F31346E002A6EA7 /* WhiteTimePicker.swift */; };
 		EBBA88291EFD6377009EED7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA88281EFD6377009EED7A /* AppDelegate.swift */; };
 		EBBA882B1EFD6377009EED7A /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA882A1EFD6377009EED7A /* ProgressViewController.swift */; };
 		EBBA882E1EFD6377009EED7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBA882C1EFD6377009EED7A /* Main.storyboard */; };
@@ -23,7 +23,7 @@
 /* Begin PBXFileReference section */
 		EB46D5291F2BC084002A6EA7 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
 		EB46D52D1F2BD039002A6EA7 /* ExpandableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpandableHeaderView.xib; sourceTree = "<group>"; };
-		EB46D5871F312C0F002A6EA7 /* WhiteTimePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteTimePicker.swift; sourceTree = "<group>"; };
+		EB46D5891F31346E002A6EA7 /* WhiteTimePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteTimePicker.swift; sourceTree = "<group>"; };
 		EBBA88251EFD6377009EED7A /* Circular Progress Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Circular Progress Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBBA88281EFD6377009EED7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBBA882A1EFD6377009EED7A /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 				EBBA886B1F0593E9009EED7A /* Settings.swift */,
 				EB46D5291F2BC084002A6EA7 /* ExpandableHeaderView.swift */,
 				EB46D52D1F2BD039002A6EA7 /* ExpandableHeaderView.xib */,
-				EB46D5871F312C0F002A6EA7 /* WhiteTimePicker.swift */,
+				EB46D5891F31346E002A6EA7 /* WhiteTimePicker.swift */,
 			);
 			name = Settings;
 			sourceTree = "<group>";
@@ -174,10 +174,10 @@
 			files = (
 				EBBA88681F055009009EED7A /* SettingsTableViewController.swift in Sources */,
 				EB46D52A1F2BC084002A6EA7 /* ExpandableHeaderView.swift in Sources */,
-				EB46D5881F312C0F002A6EA7 /* WhiteTimePicker.swift in Sources */,
 				EBBA882B1EFD6377009EED7A /* ProgressViewController.swift in Sources */,
 				EBBA886C1F0593E9009EED7A /* Settings.swift in Sources */,
 				EBBA883C1EFD6479009EED7A /* ProgressCircleView.swift in Sources */,
+				EB46D58A1F31346E002A6EA7 /* WhiteTimePicker.swift in Sources */,
 				EBBA88291EFD6377009EED7A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

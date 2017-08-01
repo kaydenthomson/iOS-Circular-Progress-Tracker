@@ -104,7 +104,6 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.0078431372550000003" green="0.027450980390000001" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="timePickerCell" rowHeight="216" id="osz-Q5-erc">
@@ -114,11 +113,11 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="216"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="pF9-PI-XYn" customClass="WhiteTimePicker">
-                                            <rect key="frame" x="0.0" y="-1" width="375" height="216"/>
+                                        <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="OQi-nH-Jxq" customClass="WhiteTimePicker" customModule="Circular_Progress_Tracker" customModuleProvider="target">
+                                            <rect key="frame" x="-1" y="0.0" width="375" height="216"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                            <date key="date" timeIntervalSinceReferenceDate="523310714.46250898">
-                                                <!--2017-08-01 20:05:14 +0000-->
+                                            <date key="date" timeIntervalSinceReferenceDate="523318445.94863302">
+                                                <!--2017-08-01 22:14:05 +0000-->
                                             </date>
                                         </datePicker>
                                     </subviews>
@@ -153,7 +152,6 @@
                                     </subviews>
                                     <color key="tintColor" red="0.12941176469999999" green="0.80784313730000001" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableViewCell>
                         </prototypes>

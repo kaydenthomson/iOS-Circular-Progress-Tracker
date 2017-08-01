@@ -9,11 +9,11 @@
 import UIKit
 
 class WhiteTimePicker: UIDatePicker {
-    var changed = false
+    let colorTheme = ColorTheme.Blue
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    override func draw(_ rect: CGRect) {
         self.setValue(UIColor.white, forKey: "textColor")
         self.datePickerMode = .time
+        self.backgroundColor = colorTheme.Background
     }
 }
