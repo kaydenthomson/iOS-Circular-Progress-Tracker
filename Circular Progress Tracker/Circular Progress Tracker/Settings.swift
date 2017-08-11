@@ -6,7 +6,6 @@
 //  Copyright © 2017 Kayden Thomson. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 public enum ColorTheme {

@@ -10,6 +10,12 @@
 		EB46D52A1F2BC084002A6EA7 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB46D5291F2BC084002A6EA7 /* ExpandableHeaderView.swift */; };
 		EB46D52E1F2BD039002A6EA7 /* ExpandableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB46D52D1F2BD039002A6EA7 /* ExpandableHeaderView.xib */; };
 		EB46D58A1F31346E002A6EA7 /* WhiteTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB46D5891F31346E002A6EA7 /* WhiteTimePicker.swift */; };
+		EB46D5901F322088002A6EA7 /* TimePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB46D58E1F322088002A6EA7 /* TimePickerTableViewCell.swift */; };
+		EB46D59C1F324D4B002A6EA7 /* TimePickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB46D59B1F324D4B002A6EA7 /* TimePickerTableViewCell.xib */; };
+		EB9DAFD91F34B73C00CF7480 /* ColorSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9DAFD81F34B73C00CF7480 /* ColorSettingTableViewCell.swift */; };
+		EB9DAFDB1F34DDF200CF7480 /* SettingNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9DAFDA1F34DDF200CF7480 /* SettingNavigationController.swift */; };
+		EB9DAFDD1F3516F500CF7480 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9DAFDC1F3516F500CF7480 /* Progress.swift */; };
+		EB9DB00E1F3A02B900CF7480 /* Circular_Progress_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9DB00D1F3A02B900CF7480 /* Circular_Progress_TrackerTests.swift */; };
 		EBBA88291EFD6377009EED7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA88281EFD6377009EED7A /* AppDelegate.swift */; };
 		EBBA882B1EFD6377009EED7A /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA882A1EFD6377009EED7A /* ProgressViewController.swift */; };
 		EBBA882E1EFD6377009EED7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBA882C1EFD6377009EED7A /* Main.storyboard */; };
@@ -20,10 +26,28 @@
 		EBBA886C1F0593E9009EED7A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA886B1F0593E9009EED7A /* Settings.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EB9DB0101F3A02B900CF7480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBBA881D1EFD6377009EED7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBBA88241EFD6377009EED7A;
+			remoteInfo = "Circular Progress Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		EB46D5291F2BC084002A6EA7 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
 		EB46D52D1F2BD039002A6EA7 /* ExpandableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpandableHeaderView.xib; sourceTree = "<group>"; };
 		EB46D5891F31346E002A6EA7 /* WhiteTimePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteTimePicker.swift; sourceTree = "<group>"; };
+		EB46D58E1F322088002A6EA7 /* TimePickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePickerTableViewCell.swift; sourceTree = "<group>"; };
+		EB46D59B1F324D4B002A6EA7 /* TimePickerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimePickerTableViewCell.xib; sourceTree = "<group>"; };
+		EB9DAFD81F34B73C00CF7480 /* ColorSettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSettingTableViewCell.swift; sourceTree = "<group>"; };
+		EB9DAFDA1F34DDF200CF7480 /* SettingNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingNavigationController.swift; sourceTree = "<group>"; };
+		EB9DAFDC1F3516F500CF7480 /* Progress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		EB9DB00B1F3A02B900CF7480 /* Circular Progress TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Circular Progress TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9DB00D1F3A02B900CF7480 /* Circular_Progress_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circular_Progress_TrackerTests.swift; sourceTree = "<group>"; };
+		EB9DB00F1F3A02B900CF7480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBBA88251EFD6377009EED7A /* Circular Progress Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Circular Progress Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBBA88281EFD6377009EED7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBBA882A1EFD6377009EED7A /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +61,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EB9DB0081F3A02B900CF7480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EBBA88221EFD6377009EED7A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -50,19 +81,49 @@
 		EB46D5281F2BC057002A6EA7 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				EBBA88671F055009009EED7A /* SettingsTableViewController.swift */,
+				EB46D5981F32467D002A6EA7 /* Header */,
+				EB46D58B1F32203A002A6EA7 /* TimePicker */,
 				EBBA886B1F0593E9009EED7A /* Settings.swift */,
-				EB46D5291F2BC084002A6EA7 /* ExpandableHeaderView.swift */,
-				EB46D52D1F2BD039002A6EA7 /* ExpandableHeaderView.xib */,
-				EB46D5891F31346E002A6EA7 /* WhiteTimePicker.swift */,
+				EB9DAFDA1F34DDF200CF7480 /* SettingNavigationController.swift */,
+				EBBA88671F055009009EED7A /* SettingsTableViewController.swift */,
+				EB9DAFD81F34B73C00CF7480 /* ColorSettingTableViewCell.swift */,
 			);
 			name = Settings;
+			sourceTree = "<group>";
+		};
+		EB46D58B1F32203A002A6EA7 /* TimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				EB46D5891F31346E002A6EA7 /* WhiteTimePicker.swift */,
+				EB46D58E1F322088002A6EA7 /* TimePickerTableViewCell.swift */,
+				EB46D59B1F324D4B002A6EA7 /* TimePickerTableViewCell.xib */,
+			);
+			name = TimePicker;
+			sourceTree = "<group>";
+		};
+		EB46D5981F32467D002A6EA7 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				EB46D5291F2BC084002A6EA7 /* ExpandableHeaderView.swift */,
+				EB46D52D1F2BD039002A6EA7 /* ExpandableHeaderView.xib */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		EB9DB00C1F3A02B900CF7480 /* Circular Progress TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB9DB00D1F3A02B900CF7480 /* Circular_Progress_TrackerTests.swift */,
+				EB9DB00F1F3A02B900CF7480 /* Info.plist */,
+			);
+			path = "Circular Progress TrackerTests";
 			sourceTree = "<group>";
 		};
 		EBBA881C1EFD6377009EED7A = {
 			isa = PBXGroup;
 			children = (
-				EBBA88271EFD6377009EED7A /* Circular Progress Tracker */,
+				EBBA88271EFD6377009EED7A /* CircularProgressTracker */,
+				EB9DB00C1F3A02B900CF7480 /* Circular Progress TrackerTests */,
 				EBBA88261EFD6377009EED7A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,19 +132,22 @@
 			isa = PBXGroup;
 			children = (
 				EBBA88251EFD6377009EED7A /* Circular Progress Tracker.app */,
+				EB9DB00B1F3A02B900CF7480 /* Circular Progress TrackerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EBBA88271EFD6377009EED7A /* Circular Progress Tracker */ = {
+		EBBA88271EFD6377009EED7A /* CircularProgressTracker */ = {
 			isa = PBXGroup;
 			children = (
 				EBBA882C1EFD6377009EED7A /* Main.storyboard */,
 				EBBA883B1EFD6479009EED7A /* ProgressCircleView.swift */,
 				EBBA882A1EFD6377009EED7A /* ProgressViewController.swift */,
+				EB9DAFDC1F3516F500CF7480 /* Progress.swift */,
 				EB46D5281F2BC057002A6EA7 /* Settings */,
 				EBBA883A1EFD63A2009EED7A /* Supporting Files */,
 			);
+			name = CircularProgressTracker;
 			path = "Circular Progress Tracker";
 			sourceTree = "<group>";
 		};
@@ -101,6 +165,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EB9DB00A1F3A02B900CF7480 /* Circular Progress TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9DB0121F3A02B900CF7480 /* Build configuration list for PBXNativeTarget "Circular Progress TrackerTests" */;
+			buildPhases = (
+				EB9DB0071F3A02B900CF7480 /* Sources */,
+				EB9DB0081F3A02B900CF7480 /* Frameworks */,
+				EB9DB0091F3A02B900CF7480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB9DB0111F3A02B900CF7480 /* PBXTargetDependency */,
+			);
+			name = "Circular Progress TrackerTests";
+			productName = "Circular Progress TrackerTests";
+			productReference = EB9DB00B1F3A02B900CF7480 /* Circular Progress TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		EBBA88241EFD6377009EED7A /* Circular Progress Tracker */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBBA88371EFD6377009EED7A /* Build configuration list for PBXNativeTarget "Circular Progress Tracker" */;
@@ -128,6 +210,12 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Kayden Thomson";
 				TargetAttributes = {
+					EB9DB00A1F3A02B900CF7480 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 592V4HSMJ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBBA88241EFD6377009EED7A;
+					};
 					EBBA88241EFD6377009EED7A = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 592V4HSMJ5;
@@ -149,16 +237,25 @@
 			projectRoot = "";
 			targets = (
 				EBBA88241EFD6377009EED7A /* Circular Progress Tracker */,
+				EB9DB00A1F3A02B900CF7480 /* Circular Progress TrackerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EB9DB0091F3A02B900CF7480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EBBA88231EFD6377009EED7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EBBA88331EFD6377009EED7A /* LaunchScreen.storyboard in Resources */,
+				EB46D59C1F324D4B002A6EA7 /* TimePickerTableViewCell.xib in Resources */,
 				EB46D52E1F2BD039002A6EA7 /* ExpandableHeaderView.xib in Resources */,
 				EBBA88301EFD6377009EED7A /* Assets.xcassets in Resources */,
 				EBBA882E1EFD6377009EED7A /* Main.storyboard in Resources */,
@@ -168,12 +265,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EB9DB0071F3A02B900CF7480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9DB00E1F3A02B900CF7480 /* Circular_Progress_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EBBA88211EFD6377009EED7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB46D5901F322088002A6EA7 /* TimePickerTableViewCell.swift in Sources */,
+				EB9DAFDD1F3516F500CF7480 /* Progress.swift in Sources */,
 				EBBA88681F055009009EED7A /* SettingsTableViewController.swift in Sources */,
 				EB46D52A1F2BC084002A6EA7 /* ExpandableHeaderView.swift in Sources */,
+				EB9DAFD91F34B73C00CF7480 /* ColorSettingTableViewCell.swift in Sources */,
+				EB9DAFDB1F34DDF200CF7480 /* SettingNavigationController.swift in Sources */,
 				EBBA882B1EFD6377009EED7A /* ProgressViewController.swift in Sources */,
 				EBBA886C1F0593E9009EED7A /* Settings.swift in Sources */,
 				EBBA883C1EFD6479009EED7A /* ProgressCircleView.swift in Sources */,
@@ -183,6 +292,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB9DB0111F3A02B900CF7480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBBA88241EFD6377009EED7A /* Circular Progress Tracker */;
+			targetProxy = EB9DB0101F3A02B900CF7480 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EBBA882C1EFD6377009EED7A /* Main.storyboard */ = {
@@ -204,6 +321,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		EB9DB0131F3A02B900CF7480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 592V4HSMJ5;
+				INFOPLIST_FILE = "Circular Progress TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Circular-Progress-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circular Progress Tracker.app/Circular Progress Tracker";
+			};
+			name = Debug;
+		};
+		EB9DB0141F3A02B900CF7480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 592V4HSMJ5;
+				INFOPLIST_FILE = "Circular Progress TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Circular-Progress-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circular Progress Tracker.app/Circular Progress Tracker";
+			};
+			name = Release;
+		};
 		EBBA88351EFD6377009EED7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -328,6 +473,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EB9DB0121F3A02B900CF7480 /* Build configuration list for PBXNativeTarget "Circular Progress TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9DB0131F3A02B900CF7480 /* Debug */,
+				EB9DB0141F3A02B900CF7480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		EBBA88201EFD6377009EED7A /* Build configuration list for PBXProject "Circular Progress Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

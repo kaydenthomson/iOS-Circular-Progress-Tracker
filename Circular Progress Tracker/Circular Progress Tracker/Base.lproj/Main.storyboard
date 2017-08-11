@@ -19,17 +19,17 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="ProgressCircleView" customModule="Circular_Progress_Tracker" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="0Zd-aB-SEq">
-                                <rect key="frame" x="96" y="291.5" width="183" height="84"/>
+                                <rect key="frame" x="96" y="259.5" width="183" height="84"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="70"/>
                                 <color key="textColor" red="0.12941176469999999" green="0.80784313730000001" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2HZ-z5-W7e">
-                                <rect key="frame" x="319" y="607" width="40" height="40"/>
+                                <rect key="frame" x="319" y="543" width="40" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="7KT-hb-zw8"/>
                                     <constraint firstAttribute="width" constant="40" id="LqE-t4-2dF"/>
@@ -38,7 +38,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" image="fa-cog"/>
                                 <connections>
-                                    <segue destination="8Jd-Jr-Yw6" kind="show" id="GHI-iR-3Jl"/>
+                                    <segue destination="ClY-nT-lW7" kind="presentation" id="GHI-iR-3Jl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -76,7 +76,7 @@
             <objects>
                 <tableViewController title="Settings" id="8Jd-Jr-Yw6" customClass="SettingsTableViewController" customModule="Circular_Progress_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Rym-XH-xjF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.070588235294117646" green="0.10980392156862745" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -106,21 +106,12 @@
                                 </tableViewCellContentView>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="timePickerCell" rowHeight="216" id="osz-Q5-erc">
-                                <rect key="frame" x="0.0" y="72" width="375" height="216"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="timePickerCell" id="osz-Q5-erc" customClass="TimePickerTableViewCell" customModule="Circular_Progress_Tracker" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="osz-Q5-erc" id="aNa-NG-1wC">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="216"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="OQi-nH-Jxq" customClass="WhiteTimePicker" customModule="Circular_Progress_Tracker" customModuleProvider="target">
-                                            <rect key="frame" x="-1" y="0.0" width="375" height="216"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                            <date key="date" timeIntervalSinceReferenceDate="523318445.94863302">
-                                                <!--2017-08-01 22:14:05 +0000-->
-                                            </date>
-                                        </datePicker>
-                                    </subviews>
                                     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="textColor">
@@ -135,8 +126,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="checkmark" indentationLevel="3" indentationWidth="10" reuseIdentifier="colorCell" textLabel="kmL-6H-sYM" style="IBUITableViewCellStyleDefault" id="FR3-tJ-IFm">
-                                <rect key="frame" x="0.0" y="288" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="checkmark" indentationLevel="3" indentationWidth="10" reuseIdentifier="colorCell" textLabel="kmL-6H-sYM" style="IBUITableViewCellStyleDefault" id="FR3-tJ-IFm" customClass="ColorSettingTableViewCell" customModule="Circular_Progress_Tracker" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="116" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FR3-tJ-IFm" id="ncf-Q1-rks">
                                     <rect key="frame" x="0.0" y="0.0" width="336" height="43.5"/>
@@ -160,17 +151,28 @@
                             <outlet property="delegate" destination="8Jd-Jr-Yw6" id="Wkh-UV-99b"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Settings" id="3Ae-2H-vgx">
+                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="EDG-dX-ybi">
+                            <color key="tintColor" red="0.20392156859999999" green="0.59607843140000005" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="cancel:" destination="8Jd-Jr-Yw6" id="FKG-gS-Nhh"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="closeButton" destination="EDG-dX-ybi" id="Bd2-Ov-rO5"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="blZ-ax-nO1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4180" y="468"/>
+            <point key="canvasLocation" x="5119.1999999999998" y="467.3163418290855"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6Pf-w5-dM5">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Mny-NN-XNd" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Frg-ma-Uvb">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="Frg-ma-Uvb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -182,6 +184,28 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jOk-ph-tur" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2228" y="468.21589205397305"/>
+        </scene>
+        <!--Setting Navigation Controller-->
+        <scene sceneID="7fr-4n-9tf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ClY-nT-lW7" customClass="SettingNavigationController" customModule="Circular_Progress_Tracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="0OA-Cf-Wlt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0078431372549019607" green="0.027450980392156862" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.20392156859999999" green="0.59607843140000005" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8Jd-Jr-Yw6" kind="relationship" relationship="rootViewController" id="Z4c-cL-ab6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xy1-dX-xnm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4180" y="467.3163418290855"/>
         </scene>
     </scenes>
     <resources>
